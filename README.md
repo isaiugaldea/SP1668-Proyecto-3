@@ -1,5 +1,17 @@
 # SP1668-Proyecto-3
-El presente repositorio detalla los pasos para la obtención de una aplicación que permita identificar Data Drifting en un modelo XGBoost con base en datos de diabetes
+El presente repositorio detalla los pasos para la obtención de una aplicación que permita identificar Data Drifting en un modelo XGBoost con base en datos de diabetes.
+
+# Tabla comparativa
+
+La tabla de la imagen compara las métricas de los modelos con los cambios aplicados en la retroalimentación, y con Feature Engineering (FE) o Enriquecimiento de datos.
+
+![alt text](imagen.png)
+
+Se determina que el mejor modelo es XGBoost con datos originales.
+
+# Cuadernos de trabajo
+
+El archivo  **Fases.ipynb** contiene el código de ejecución de modelos con datos limpios originales y con datos enriquecidos (descripción de nuevas variables en el archivo). El archivo **Modelo_final.ipynb** contiene el código para guardar los objetos *.joblib* para la ejecución de la aplicación (*app.py*) de Data Drift a partir de Python. Los pasos para crear esta aplicación a partir de Antigravity se especifican en la siguiente sección.
 
 # Bitácora de Co-creación y Registro de Prompts: Proyecto Antigravity (App MLOps & Data Drift)
 
